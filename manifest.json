@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Voice Input Anywhere",
+  "version": "1.0",
+  "description": "Use voice to write text anywhere in Chrome",
+  "permissions": [
+      "activeTab",
+      "tabs",
+      "scripting"
+  ],
+  "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+  ],
+  "action": {
+      "default_popup": "popup.html"
+  },
+  "background": {
+      "service_worker": "background.js"
+  }
+}
