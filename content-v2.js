@@ -1,3 +1,4 @@
+// fixed the logic when deleting or undoing the input
 // Prevent multiple injections
 if (!window.voiceInputInitialized) {
     window.voiceInputInitialized = true;
